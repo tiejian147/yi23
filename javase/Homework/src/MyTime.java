@@ -12,7 +12,21 @@
  */
 public class MyTime {
     public static void main(String[] args) {
+        Time t1 = new Time(5,15,10);
+        //调用增加秒的方法
+        t1.addSecond(90);
 
+        //调用增加分的方法
+        t1.addMinute(90);
+
+        //调用增加时的方法
+        t1.addHour(19);
+
+//        System.out.println(t1.getSecond());
+//        System.out.println(t1.getMinute());
+
+        //打印时间
+        System.out.println("现在的时间为：" + t1.getHour() + "时" + t1.getMinute() + "分" + t1.getSecond() + "秒");
     }
 
 }
@@ -69,10 +83,30 @@ class Time{
 
     //创建增加秒的方法
     public void addSecond(int sec){
-        this.second = sec;
-        if(sec >= 60){
-            this.second -= sec;
+        this.second = sec + this.getSecond();
+        if(this.second >= 60 && this.second <120){
+            this.second = this.getSecond() - 60;
             this.minute += 1;
+        }
+
+    }
+
+    //创建增加分的方法
+    public void addMinute(int min){
+        this.minute = min + this.getMinute();
+        if(this.minute >= 60 && this.minute <120){
+            this.minute = this.getMinute() - 60;
+            this.hour += 1;
+        }
+
+    }
+
+    //创建建增加时的方法
+    public void addHour(int hourNum){
+        this.hour = hourNum + this.getHour();
+        if(this.hour > 24){
+            this.hour = this.getHour() - 24;
+            System.out.println("现在是第二天的：" + getHour() + "时" + getMinute() + "分" + getSecond() + "秒");
         }
     }
 }

@@ -36,9 +36,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuessNumber">
+  <component name="RunManager" selected="Application.MyTime">
     <configuration name="GuessNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessNumber" />
+      <module name="Homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTime" />
       <module name="Homework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTime" />
         <item itemvalue="Application.GuessNumber" />
         <item itemvalue="Application.VihicleTest" />
         <item itemvalue="Application.Test" />
@@ -76,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591856325924</updated>
-      <workItem from="1591856329109" duration="3544000" />
+      <workItem from="1591856329109" duration="6318000" />
     </task>
     <servers />
   </component>
