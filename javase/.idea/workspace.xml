@@ -36,7 +36,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTime">
+  <component name="RunManager" selected="Application.FinalTest02">
+    <configuration name="FinalTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalTest01" />
+      <module name="chapter15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalTest02" />
+      <module name="chapter15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessNumber" />
       <module name="Homework" />
@@ -51,13 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="chapter15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VihicleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VihicleTest" />
       <module name="Homework" />
@@ -67,10 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalTest02" />
+        <item itemvalue="Application.FinalTest01" />
         <item itemvalue="Application.MyTime" />
         <item itemvalue="Application.GuessNumber" />
         <item itemvalue="Application.VihicleTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591856325924</updated>
-      <workItem from="1591856329109" duration="6318000" />
+      <workItem from="1591856329109" duration="10764000" />
     </task>
     <servers />
   </component>
