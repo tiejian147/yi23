@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7b2692-3873-4c53-973d-e12ac0949ec3" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="fb7b2692-3873-4c53-973d-e12ac0949ec3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter16/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStudy" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStudy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter16/src/AbstractTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter16/src/AbstractTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/AbstractTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/AbstractTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/CreditAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/CreditAccount.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,29 +23,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1dA81zxZN5HT2o8nXtDVDrfmblb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AbstractTest01">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="AbstractTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractTest01" />
       <module name="chapter16" />
@@ -45,16 +51,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalTest01" />
-      <module name="chapter15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalTest02" />
-      <module name="chapter15" />
+    <configuration name="AbstractTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractTest02" />
+      <module name="chapter16" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="chapter16" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.AbstractTest02" />
         <item itemvalue="Application.AbstractTest01" />
         <item itemvalue="Application.FinalTest04" />
         <item itemvalue="Application.FinalTest03" />
-        <item itemvalue="Application.FinalTest02" />
-        <item itemvalue="Application.FinalTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -93,11 +99,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591856325924</updated>
-      <workItem from="1591856329109" duration="17564000" />
+      <workItem from="1591856329109" duration="21709000" />
+      <workItem from="1592810958912" duration="105000" />
+      <workItem from="1592978004367" duration="208000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
 </project>
