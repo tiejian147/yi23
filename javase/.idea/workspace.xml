@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7b2692-3873-4c53-973d-e12ac0949ec3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter16/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaStudy" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStudy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter16/src/AbstractTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter16/src/AbstractTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16/AbstractTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/AbstractTest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16/CreditAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/CreditAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter16/src/AbstractTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter16/src/AbstractTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter16/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/java学习笔记.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/AbstractTest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/AbstractTest02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.AbstractTest02">
     <configuration name="AbstractTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractTest01" />
       <module name="chapter16" />
@@ -81,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.AbstractTest02" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.AbstractTest01" />
         <item itemvalue="Application.FinalTest04" />
         <item itemvalue="Application.FinalTest03" />
@@ -101,11 +102,29 @@
       <updated>1591856325924</updated>
       <workItem from="1591856329109" duration="21709000" />
       <workItem from="1592810958912" duration="105000" />
-      <workItem from="1592978004367" duration="208000" />
+      <workItem from="1592978004367" duration="3960000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1592987164680">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164680" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1592987164678">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164678" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1592987164677">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164677" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1592987164679">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164679" />
   </component>
 </project>
