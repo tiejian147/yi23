@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7b2692-3873-4c53-973d-e12ac0949ec3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter16/src/InterfaceBasicGrammar/InterfaceTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaStudy" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStudy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter16/src/AbstractTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter16/src/AbstractTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter16/src/AbstractTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter16/src/AbstractTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter16/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/java学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/chapter16/AbstractTest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/AbstractTest02.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/chapter16/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/Bird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter16/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16/Dog.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.AbstractTest02">
+  <component name="RunManager" selected="Application.InterfaceTest01">
     <configuration name="AbstractTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractTest01" />
       <module name="chapter16" />
@@ -59,16 +57,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalTest03" />
+    <configuration name="FinalTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalTest04" />
       <module name="chapter15" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalTest04" />
-      <module name="chapter15" />
+    <configuration name="InterfaceTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceTest01" />
+      <module name="chapter16" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceTest01" />
         <item itemvalue="Application.AbstractTest02" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.AbstractTest01" />
         <item itemvalue="Application.FinalTest04" />
-        <item itemvalue="Application.FinalTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +100,7 @@
       <updated>1591856325924</updated>
       <workItem from="1591856329109" duration="21709000" />
       <workItem from="1592810958912" duration="105000" />
-      <workItem from="1592978004367" duration="3960000" />
+      <workItem from="1592978004367" duration="6053000" />
     </task>
     <servers />
   </component>
@@ -110,21 +108,21 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1592987164680">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1593331443291">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164680" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1592987164678">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593331443291" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1593331443289">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164678" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1592987164677">
+    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593331443289" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1593331443288">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164677" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1592987164679">
+    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593331443288" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1593331443290">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1592987164679" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593331443290" />
   </component>
 </project>
