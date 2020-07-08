@@ -35,6 +35,8 @@ public class ArrayTest07 {
 
         animal2[1].move();
         System.out.println("11111");
+        System.out.println("2222");
+        System.out.println("3333");
 
 
 
