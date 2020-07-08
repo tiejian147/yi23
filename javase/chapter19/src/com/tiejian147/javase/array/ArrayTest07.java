@@ -1,6 +1,7 @@
 package com.tiejian147.javase.array;
 
 //  一维数组的深入，数组中存储的类型为：引用数据类型
+//  对于数组来说， 实际上只能存储java对象的"内存地址"，数组中存储的每个元素是"引用"
 public class ArrayTest07 {
     public static void main(String[] args) {
 //        创建一个Animal类型的数组
@@ -33,6 +34,7 @@ public class ArrayTest07 {
         animal2[1] = new Cat();
 
         animal2[1].move();
+        System.out.println("11111");
 
 
 
