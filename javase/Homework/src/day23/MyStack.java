@@ -35,6 +35,50 @@ public class MyStack {
 //    包括String也可以存储进去，因为String父类也是Object
     private Object[] elements;
 
+    private int index;
+
+    /*
+    * 压栈的方法
+    * @param obj 被压入的元素
+    * */
+
+    public void push(Object obj){
+        if(index >= this.elements.length -1){
+            System.out.println("压栈已满，不能再压了");
+            return;
+        }
+//        程序走到这里，说明栈没有满
+//        向栈中加一个元素，栈桢向上移动一个位置；
+        index ++;
+        elements[index] = obj;
+//        所有的System.out.println() 方法执行时，如果输出引用的话，自动调用引用的toString() 方法
+        System.out.println("此时压栈数为" + index + "，" + obj);
+    }
+
+    /**
+     * 弹栈的方法
+     * @param obj
+     */
+
+
+//        弹栈的方法
+    public void pop(){
+        if(index < 0 ){
+            System.out.println("弹栈空了，没了");
+            return;
+        }
+//        程序走到这里，说明弹栈还有
+
+//        elements[index] = obj;
+//        int myNum = this.elements.length -1;
+//        System.out.println("长度是：" + myNum);
+        System.out.println("此时弹栈数为" + index + "，" + elements[index]);
+
+        index --;
+
+        System.out.println("栈桢指向：" + index);
+    }
+
 
 //    setter & getter 方法
 
@@ -50,6 +94,7 @@ public class MyStack {
 
     public MyStack() {
         this.elements = new Object[10];
+        this.index = -1;
     }
 
 //    有参构造方法
