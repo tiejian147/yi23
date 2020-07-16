@@ -13,5 +13,7 @@ package day23;
 * */
 
 public class MyHotel {
-
+    public static void main(String[] args) {
+        System.out.println("test");
+    }
 }
