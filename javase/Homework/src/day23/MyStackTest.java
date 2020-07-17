@@ -20,6 +20,13 @@ public class MyStackTest {
         stack.pop();
         stack.pop();
         stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
 
 
 
