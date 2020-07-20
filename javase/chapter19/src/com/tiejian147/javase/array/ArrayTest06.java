@@ -2,6 +2,9 @@ package com.tiejian147.javase.array;
 
 public class ArrayTest06 {
     public static void main(String[] args) {
+
+//        这个main方法的参数是在工具栏中的run > edit configuartions > program arguments
+//        进行填写参数
         if(args.length != 2){
             System.out.println("使用该系统时请输入程序参数，例如：liucs 111");
             return;
