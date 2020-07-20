@@ -13,5 +13,28 @@ package day23;
 * */
 
 public class MyHotel {
+//    声明一个属性，二维数组，来表示所有的房间
+    private Room[][] rooms ;
 
+//    无参构造方法
+
+
+    public MyHotel() {
+    }
+
+//    有参数构造方法
+
+    public MyHotel(Room[][] rooms) {
+        this.rooms = rooms;
+    }
+
+//    setter and getter
+
+    public Room[][] getRooms() {
+        return rooms;
+    }
+
+    public void setRooms(Room[][] rooms) {
+        this.rooms = rooms;
+    }
 }

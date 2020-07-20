@@ -11,8 +11,9 @@ package day23;
  */
 
 public class MyStack {
+    //    声明一个数组属性来表示数组
     private Object[] elements;
-
+    //      声明一个整型属性来表示下标
     private int index;
 
     /**
