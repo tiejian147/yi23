@@ -101,7 +101,7 @@ public class Room {
 
 
 //写一个测试的主方法来进行测试，测试完成之后可以删掉
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         Room room = new Room(101, "单人间", false);
 
@@ -112,5 +112,5 @@ public class Room {
         Room room1 = new Room(102, "单人间", false);
         System.out.println(room.equals(room1));
 
-    }
+    }*/
 }
