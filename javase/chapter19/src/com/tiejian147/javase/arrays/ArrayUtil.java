@@ -29,12 +29,12 @@ package com.tiejian147.javase.arrays;
  */
 public class ArrayUtil {
     public static void main(String[] args) {
-        int[] arr = {};
+        int[] arr = {10,20,30,40,50,60,70,80,90,100,200,300,400};
 
 //        找出arr这个数组中200所在的下标
 //        调用方法：
-        int index = binarySearch2(arr,200);
-        System.out.println(index = -1 ? "该元素不存在！" : "该元素下标为：" + index);
+        int index = binarySearch2(arr,400);
+        System.out.println(index == -1 ? "该元素不存在！" : "该元素下标为：" + index);
     }
 
     private static int binarySearch2(int[] arr, int dest) {
@@ -44,15 +44,29 @@ public class ArrayUtil {
 //        结束下标：
         int end = arr.length - 1;
 
-//        中间元素下标：
-        int mid = (begin + end)/2;
+//        开始元素的下标只要在结束元素的左边，就有机会继续循环
 
-        if (arr[mid] == dest){
+        while (begin <= end){
+
+            //        中间元素下标：
+            int mid = (begin + end)/2;
+
+            if (arr[mid] == dest){
 //
-            return mid;
-        }else if (arr[mid] < dest){
-//
+                return mid;
+            }else if (arr[mid] < dest){
+//            目标在"中间"的右边
+//            开始元素下标需要发生变化（开始元素下标需要重新赋值）
+                begin = mid + 1;//一直增
+            }else{
+//            arr[mid] > dest
+//            目标在"中间的左边
+//            修改结束元素的下标
+                end = mid - 1;//一直减
+            }
         }
+
+
 
         return -1;
 
