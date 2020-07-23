@@ -24,5 +24,12 @@ public class StringTest02 {
 //        String类已经重写了equals方法，以下的equals方法调用的是String重写之后的equals方法
 
         System.out.println(s3.equals(s4));//true
+
+//        为什么"testing"这个字符串后面可以加"."呢？
+//        因为"testing"是一个String字符串对象，只要是对象都能调用方法
+        String k = new String("testing");
+        System.out.println("testing".equals(k));//建议使用这种方式，因为这个方式可以避免空指针异常
+//        还可以写成这样：
+        System.out.println(k.equals("testing"));
     }
 }
