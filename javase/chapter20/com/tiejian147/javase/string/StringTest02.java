@@ -30,6 +30,6 @@ public class StringTest02 {
         String k = new String("testing");
         System.out.println("testing".equals(k));//建议使用这种方式，因为这个方式可以避免空指针异常
 //        还可以写成这样：
-        System.out.println(k.equals("testing"));
+        System.out.println(k.equals("testing"));//不建议这样写
     }
 }
