@@ -68,14 +68,92 @@ public class StringTest05 {
 //        12、（掌握）.String replace(CharSequence target,CharSequence replacement)
 //        替换
 //        String的父接口就是：CharSequence
-        String newString = "http://www.baidu.com".replace("http://","https://");
+        String newString = "http://www.baidu.com".replace("http://", "https://");
         System.out.println(newString);
 //        把以下字符串中的"="替换成："："
-        String s2 = "name=zhangsan&password=1243&age=20".replace("=",":");
+        String s2 = "name=zhangsan&password=1243&age=20".replace("=", ":");
         System.out.println(s2);
 
+//        13、（掌握）.String[] split(String regex)
+//        拆分字符串
+        String[] ymd = "1980-11-20".split("-");
+        System.out.println("时间1980-11-20进行拆分：");
+        for (int i = 0; i < ymd.length; i++) {
+            System.out.println(ymd[i]);
+        }
+//        System.out.println();
+
+        System.out.println("--------");
+        String[] ymd2 = "1980:11:20".split(":");
+
+        System.out.println("时间1980:11:20进行拆分：");
+        for (int i = 0; i < ymd.length; i++) {
+            System.out.println(ymd2[i]);
+        }
 
 
+        String param = "name=zhangsan&password=1243&age=20";
+        String[] params = param.split("&");
+        for (int i = 0; i < params.length; i++) {
+            System.out.println(params[i]);
 
+            String[] params2 = params[i].split("=");
+            for (int j = 0; j < params2.length; j++) {
+                System.out.println(params2[j]);
+            }
+
+        }
+
+//        14、（掌握）.boolean startsWith(String prefix)
+//        判断某个字符串是否以某个子字符串开始
+        System.out.println("http://baidu.com".startsWith("http"));//true
+        System.out.println("http://baidu.com".startsWith("baidu"));//false
+
+//        15、(掌握) String substring(int beginIndex)
+//        截取字符串
+        System.out.println("http://www.baidu.com".substring(7));//www.baidu.com
+
+//        16、（掌握）String substring(int beginIndex)
+//        beginIndex 起始位置（包括）
+//        endIndex 结束位置（不包括）
+        System.out.println("http://www.baidu.com".substring(7,10));//www
+
+//        17、（掌握） char
+//        将字符串转换成char数组
+        char[] chars = "我是中国人".toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            System.out.println(chars[i]);
+        }
+
+//        18、(掌握) String toLowerCase()
+//        转换为小写
+        System.out.println("WEFDSGFRdskfsdflDSFS".toLowerCase());
+
+//        19、（掌握）  String toUpperCase()
+//        转换为大写
+        System.out.println("sdfsdfSDFsdfSLjkLKJlkj".toUpperCase());
+
+//        20、（掌握） String trim()
+//        去除字符串前后空白
+        System.out.println("  test   sdfsdf  sdfdsf   ssss ".trim());
+
+//        21、（掌握） .String 中只有一个方法是静态的，不需要new对象
+//        这个方法叫做valueOf
+//        作用：将"非字符串"转换成"字符串"
+        String str1 = String.valueOf(true);
+        String str2 = String.valueOf(123);
+        String str3 = String.valueOf(3.14);
+        System.out.println(str1 + " " + str2 + " " + str3);
+
+//        这个静态的valueOf()方法，参数是一个对象的时候，会自动调用该对象的toString()方法吗？
+        String str4 = String.valueOf(new Custmor());
+        System.out.println(str4);
+    }
+}
+
+class Custmor{
+//    重写toString方法
+    public String toString(){
+        return "我是一个vip客户";
     }
 }
