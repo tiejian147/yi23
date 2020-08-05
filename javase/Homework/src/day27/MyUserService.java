@@ -20,7 +20,7 @@ public class MyUserService {
     public static void main(String[] args) {
         UserService us = new UserService();
         try {
-            us.register("122434534",null);
+            us.register(null,null);
 
         } catch (MyUserServiceException e) {
             System.out.println(e.getMessage());
