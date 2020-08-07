@@ -15,5 +15,66 @@ package day27.Weapon;
     这些紫武器应该有一些是可以移动的，有一些是可以攻击的。
  */
 public class Army {
+    /**
+     * 武器数组
+     */
+    private Weapon[] weapons;
+
+    /**
+     * 创建军队的构造方法
+     * @param count 武器数量
+     */
+    public Army(int count){
+//        动态初始化数组中每一个元素默认值是null
+//        武器数组是有了，但是武器数组中没有武器
+        weapons = new Weapon[count];
+    }
+
+    /**
+     * 将武器加入数组
+     * @param weapon
+     */
+    public void addWeapon(Weapon weapon) throws AddWeaponException {
+        for (int i = 0; i < weapons.length; i++) {
+            if (null == weapons[i]){
+                weapons[i] = weapon;
+                System.out.println(weapon.toString() + ": 武器添加成功");
+                return;
+            }
+        }
+//        程序如果执行到此处说明，武器没有添加成功
+        throw new AddWeaponException("武器数量已达上限~~~");
+    }
+
+    /**
+     * 所有可攻击的武器攻击
+     */
+    public void attackAll(){
+//        遍历数组
+        for (int i = 0; i < weapons.length; i++) {
+            if (weapons[i] instanceof AttackAble){
+//                调用子类中特有的方法，向下转型
+                AttackAble attackAble = (AttackAble)weapons[i];
+                attackAble.shoot();
+            }
+        }
+    }
+
+    /**
+     * 所有可移动的武器移动
+     */
+    public void moveAll(){
+//        遍历数组
+        for (int i = 0; i < weapons.length; i++) {
+            if (weapons[i] instanceof Moveable){
+                //                调用子类中特有的方法，向下转型
+                Moveable moveable = (Moveable)weapons[i];
+                moveable.move();
+            }
+        }
+    }
+
+
+
 
 }
