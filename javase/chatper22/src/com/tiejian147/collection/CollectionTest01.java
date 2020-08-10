@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /*
-关于java.util.Collection接口中常用的方法：
+关于接口中常用的方法：
     1、Collection中能存放什么元素？
         没有使用“泛型”之前，Collection中可以存储Object的所有子类型。
         使用了“泛型”之后，Collection中只能存储某个具体的类型。
