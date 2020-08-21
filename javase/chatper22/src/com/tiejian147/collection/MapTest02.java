@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
-Map 集合的遍历
+Map 集合的遍历 【非常重要】
  */
 public class MapTest02 {
     public static void main(String[] args) {
@@ -41,5 +41,31 @@ public class MapTest02 {
             System.out.println("用forecah：" + key + "=" + map.get(key));
         }
 
+        System.out.println("---------");
+
+//    第二种方法：Set<Map.entry<K,V>> entrySet()
+//        方式1：while
+//        这个方法是把Map集合直接全部转换成Set集合
+//        Set集合中元素的类型是：Map.Entry
+//        首先先转换成Set集合
+        Set<Map.Entry<Integer,String>> set = map.entrySet();
+
+//        然后获取迭代器
+        Iterator<Map.Entry<Integer,String>> it2 =  set.iterator();
+
+        while (it2.hasNext()){
+//            获取map集合中的key值
+            Map.Entry<Integer,String> num = it2.next();
+            Integer key2 = num.getKey();
+            String value2 = num.getValue();
+//            获取map集合中的value
+            System.out.println(key2 + "=" + value2);
+
+        }
+
+//        方式2：用foreach
+        for (Map.Entry<Integer,String> node : set){
+            System.out.println(node.getKey() + "-->" + node.getValue());
+        }
     }
 }
