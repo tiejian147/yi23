@@ -1,4 +1,4 @@
-package com.cider.user;
+/*package com.cider.user;
 
 import com.alibaba.fastjson.JSON;
 import com.cider.common.rpc.model.RpcSkuRequestVO;
@@ -19,11 +19,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-/**
+*
  * @author caojiancheng
  * @date 2020/8/21
  * @description
- */
+
+
 
 @SpringBootTest(classes = ProductApplication.class)
 @ActiveProfiles("dev")
@@ -200,3 +201,4 @@ public class ProductTest {
 
 
 }
+*/

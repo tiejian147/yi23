@@ -1,4 +1,9 @@
 package com.tiejian147.collection;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 /*
 HashMap集合：
     1、HashMap集合底层是哈希表/散列表的数据结构；
@@ -71,9 +76,31 @@ HashMap集合：
             不行，因为这样的话导致底层哈希表就成为一维数组了，没有链表的概念了。
             也是散列分布不均匀。
          散列分布均匀需要你重写hashCode() 方法时有一定的技巧
+      7、重点：放在HashMap集合key部分的元素，以及放在HashSet集合中的元素，需要同时重写hashCode和equals方法；
+      8、HashMap集合的默认初始化容量是16，默认加载因子是0.75
+        这个默认加载因子是当HashMap集合底层数组的容量达到75%的时候，数组开始扩容；
+
+        重点，记住：HashMap集合初始化容量必须是2的倍数，这也是官方推荐的，
+                这是因为达到散列均匀，为了提高HashMap集合的存取效率，所必须的。
  */
 public class HashMapTest01 {
     public static void main(String[] args) {
+        Map<Integer,String> map = new HashMap<>();
+
+        map.put(1111, "zhangsan");
+        map.put(9999, "test");
+        map.put(4444, "wangwu");
+        map.put(3333, "king");
+        map.put(3333, "push");
+
+        System.out.println("元素个数为： " + map.size());
+
+//        遍历
+        Set<Map.Entry<Integer,String>> set = map.entrySet();
+
+        for (Map.Entry<Integer,String> entry : set){
+            System.out.println(entry.getKey() + "=" + entry.getValue());
+        }
 
     }
 }
