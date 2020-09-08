@@ -1,5 +1,63 @@
-工具简介：
+一、工具简介：
     1、多线程框架--支持多并发操作；
     2、用于对服务器模拟负载；
     3、支持web、数据库、FTP服务器系统的性能测试；
     4、开源，纯JAVA，可二次定制化开发；
+
+二、当前使用版本号：5.1来进行操作学习；
+    1、语言设置：
+    bin目录下，有个jmeter.properties：
+    /*
+    #Preferred GUI language. Comment out to use the JVM default locale's language.
+    language=zh_CN--------这一行 取消注释，然后将en 改为zh_CN
+
+
+    # Additional locale(s) to add to the displayed list.
+    # The current default list is: en, fr, de, no, es, tr, ja, zh_CN, zh_TW, pl, pt_BR
+    # [see JMeterMenuBar#makeLanguageMenu()]
+    */
+    保存之后，重新打开jmeter就可以了；
+
+    2、设置jmeter占用内存大小的配置；
+    还是在bin目录下，打开jmeter.bat文件：
+    150行：
+    if not defined HEAP (
+        rem See the unix startup file for the rationale of the following parameters,
+        rem including some tuning recommendations
+        set HEAP=-Xms1g -Xmx1g -XX:MaxMetaspaceSize=256m
+    )
+
+    修改：-Xmx1g  一般可以修改你使用服务器机器内存的80%
+
+    3、GUI模式（带操作界面）下，执行jmeter脚本，只需要将脚本拖拽到窗口内就可以了；
+        非GUI，在Lunix系统中，进入到jmeter的bin目录下，将测试脚本放到bin目录，然后执行命令：
+        ./jmemter -n -t test.jmx
+
+    4、线程组元件：测试计划要先保存，不要保存在默认的bin目录中，要保存到其他目录，不然删掉这个jmeter会酿成大祸，
+    右键测试计划，线程组，可以添加线程组；
+    勾选：独立运行每个线程组，勾选的话，会按照线程组的顺序跑先后；
+        如果不勾选，没有先后顺序，会同时跑所有的现成；
+
+    5、线程组操作禁用就不跑了，不用删除；
+
+    6、线程组：setUp永远是在第一个线程组来执行；tearDown永远是在最后一个线程组执行；无论中间或者后面有几个普通的线程组，setUp和tearDown
+      这两个线程组的顺序是永远不变的；
+
+三、jmeter主要元件使用：
+    1、配置元件；
+        1.1、http请求默认值；
+            *该组件可以为我们的http请求设置默认的值；
+            *创建一个测试计划有很多个请求且都是发送到相同的server，只需要添加一个http request defaults
+             组件，并设置“server name or IP”
+            *添加多个http请求会默认使用http request defaults组件设置的值；
+
+        1.2、http消息头管理器；
+        1.3、http cookies管理器；
+        1.4、http cache管理器；
+
+    2、监听器元件；
+
+    3、其他常用元件；
+
+
+
