@@ -40,13 +40,14 @@ public class StringTest05 {
 //        将字符串对象转换为字节数组
         byte[] bytes = "absdfds".getBytes();
         for (int i = 0; i < bytes.length; i++) {
+            System.out.println("字节数组：");
             System.out.println(bytes[i]);
 
         }
 
 //        8、（掌握）.int indextOf(String str)
 //        判断某个子字符串在当前字符串中第一次出现处的索引（下标）
-        System.out.println("sdlerfjsordijavasldfeifjajavasldfkjsdf".indexOf("java"));
+        System.out.println("第八个："+"sdlerfjsordijavasldfeifjajavasldfkjsdf".indexOf("java"));
 
 //        9、（掌握）.boolean isEmpty()
 //        判断某个字符串是否为"空字符串"，底层源代码调用的应该是字符串的length()方法
@@ -145,7 +146,7 @@ public class StringTest05 {
         String str3 = String.valueOf(3.14);
         System.out.println(str1 + " " + str2 + " " + str3);
 
-//        这个静态的valueOf()方法，参数是一个对象的时候，会自动调用该对象的toString()方法吗？
+//        这个静态的valueOf()方法，参数是一个对象的时候，会自动调用该对象的toString()方法吗？会
         String str4 = String.valueOf(new Custmor());
         System.out.println(str4);
     }
