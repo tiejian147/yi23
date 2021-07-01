@@ -8,5 +8,6 @@ public class RviviewStringTest01 {
 
         String s2= "zheli sdfsdfd";
         String s3 = "sdfds";
+        String s4 = "test0701";
     }
 }
