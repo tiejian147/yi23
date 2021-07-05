@@ -16,7 +16,19 @@ package restartForJava.src.chapter02;
     2、命名规范都有哪些？
         2.1、见名知意
         2.2、遵循驼峰命名方式（一高一低）
+        2.3、类名、接口名有特殊要求
+            类名、接口名首字母大写，后面每个单词首字母大写；
+            StudentTest、UserTest
+        2.4、变量名、方法名有特殊要求
+            变量名和方法名首字母小写，后面每个单词首字母大写；
+            ageTest、nameTest
+        2.5、所有常量名：全部大写，并且单词和单词之间采用下划线衔接；
+            USER_AGE
  */
 public class IdentifierTest {
-
+    public static void main(String[] args) {
+        int age = 20;
+        String name = "张三";
+        System.out.println(name);
+    }
 }
