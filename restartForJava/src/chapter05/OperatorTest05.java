@@ -17,5 +17,6 @@ public class OperatorTest05 {
 //        要这么写：
         char c = sex ? '男' : '女';
         System.out.println(c);
+        System.out.println("test");
     }
 }
