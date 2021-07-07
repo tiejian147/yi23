@@ -10,6 +10,15 @@ public class BooleanTest01 {
         }else {
             System.out.println("女");
         }
+
+//        自己做个例子
+        System.out.println("-------分割线--------");
+        boolean weather = false;
+        if (weather){
+            System.out.println("天气好，就出去吃饭");
+        }else {
+            System.out.println("天气不好，就在楼里吃饭");
+        }
     }
 
 

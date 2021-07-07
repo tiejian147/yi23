@@ -21,6 +21,6 @@ public class Homework {
             }
         }
 //        跳出循环之后，打印求和
-        System.out.println(sum);
+        System.out.println("求和：" + sum);
     }
 }
