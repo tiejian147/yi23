@@ -30,5 +30,6 @@ public class OperatorTest05 {
         int d = x + x--;
         System.out.println(d);//12 + 12  24
         System.out.println(x);// 11
+        System.out.println("test");
     }
 }
