@@ -17,5 +17,18 @@ public class OperatorTest05 {
 //        要这么写：
         char c = sex ? '男' : '女';
         System.out.println(c);
+
+        int x = 10;
+        int a = x + x++;
+        System.out.println(x);//11
+        System.out.println(a);//20
+
+        int b = x + ++x;
+        System.out.println(b);//23
+        System.out.println(x);//12
+
+        int d = x + x--;
+        System.out.println(d);//12 + 12  24
+        System.out.println(x);// 11
     }
 }
