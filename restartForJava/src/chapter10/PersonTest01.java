@@ -22,6 +22,9 @@ public class PersonTest01 {
         p1.setAge(15);
         System.out.println(p1.getAge());
 
+        p1.setAge(-5);
+        System.out.println(p1.getAge());
+
 
     }
 }
