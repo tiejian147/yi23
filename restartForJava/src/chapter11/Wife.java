@@ -8,7 +8,7 @@ public class Wife {
     //    实例变量 出生日期
      String birthday;
     //    实例变量 妻子
-     Husband ChaoChao;
+     Husband chaoChao;
 
     public int getIdNo() {
         return idNo;
@@ -23,7 +23,7 @@ public class Wife {
     }
 
     public Husband getChaoChao() {
-        return ChaoChao;
+        return chaoChao;
     }
 
 //    有参数的构造器
@@ -41,6 +41,6 @@ public class Wife {
     }
 
     public void setChaoChao(Husband chaoChao) {
-        ChaoChao = chaoChao;
+        chaoChao = chaoChao;
     }
 }

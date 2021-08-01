@@ -1,4 +1,8 @@
 package chapter11;
+/*
+.后面只有一个单词，没有小括号，表示访问的是属性；
+.后面有一个单词+(), 表示访问的是方法；
+ */
 
 public class Spouse {
     public static void main(String[] args) {
@@ -15,12 +19,14 @@ public class Spouse {
         w1.setName("方小熊");
 
 //        产生关系
+//        这里解释一下，见上面
         h1.xiaoXiong = w1;
-        w1.ChaoChao = h1;
+        w1.chaoChao = h1;
 
 //        h1.idNo =
 
-        System.out.println(h1.xiaoXiong.getName());
+        System.out.println(h1.getName() + "的妻子是" + h1.xiaoXiong.getName());
+        System.out.println(w1.getName() + "的老公是" + w1.chaoChao.getName());
 
     }
 }
