@@ -10,6 +10,9 @@ package chapter16;
    实现接口中的方法，要用：implement
 
    一个类可以同时实现多个接口。
+
+接口开发的作用：
+    面向接口编程，可以降低程序的耦合度，提高程序的扩展力，符合OCP开发原则。
  */
 public class InterfaceTest01 {
     public static void main(String[] args) {
