@@ -1,5 +1,6 @@
 package chapter16;
 
+
 public class EatingTest {
     public static void main(String[] args) {
 //        创建厨师对象
