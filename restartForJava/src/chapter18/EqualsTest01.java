@@ -7,7 +7,7 @@ public class EqualsTest01 {
     public static void main(String[] args) {
         MyTime01 mt03 = new MyTime01(1980,02,02);
         MyTime01 mt04 = new MyTime01(1980,02,02);
-        System.out.println(mt03.equals() == mt04.equals());
+        System.out.println(mt03);
 
     }
 }
