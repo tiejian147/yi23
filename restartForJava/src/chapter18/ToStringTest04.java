@@ -3,7 +3,9 @@ package chapter18;
 import chapter08.Address;
 
 import java.util.Objects;
-
+/*
+练习 equals()方法重写，这个其实借助工具是可以一键生成的；
+ */
 public class ToStringTest04 {
     public static void main(String[] args) {
 //        需要判断User类中的两个对象是否相等
