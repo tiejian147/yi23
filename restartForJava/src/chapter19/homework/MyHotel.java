@@ -1,4 +1,4 @@
-package chapter19;
+package chapter19.homework;
 /*
 为某个酒店编写程序：酒店管理系统，模拟订房，退房，打印所有房间状态等功能。
 1、该酒店的用户是：酒店前台
@@ -10,5 +10,5 @@ package chapter19;
     可以退订房间：用户输入房间编号，退房
     可以查看所有的房间状态：用户输入某个指令应该可以查看所有房间状态；
  */
-public class ArrayTestHomework {
+public class MyHotel {
 }
