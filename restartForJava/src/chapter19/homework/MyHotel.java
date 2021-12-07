@@ -11,4 +11,7 @@ package chapter19.homework;
     可以查看所有的房间状态：用户输入某个指令应该可以查看所有房间状态；
  */
 public class MyHotel {
+    public static void main(String[] args) {
+
+    }
 }
