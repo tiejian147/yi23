@@ -12,6 +12,11 @@ package chapter19.homework;
  */
 public class MyHotel {
     public static void main(String[] args) {
-
+        Hotel hotel = new Hotel();
+        hotel.print();
+        // 订房
+        hotel.order(207);
+        // 退房
+        hotel.exit(207);
     }
 }
