@@ -80,12 +80,12 @@ public class IntegerTest01 {
         Integer i6 = 444;
         System.out.println(i6);
         //调用方法
-        Integer i7 =Integer.valueOf(444);
+        Integer i7 =444;
         System.out.println(i7);
 
         //Integer转int
         //自动拆箱
-        int i8 = i7.intValue();
+        int i8 = i7;
         System.out.println(i8);
 
         //String和Integer互转
