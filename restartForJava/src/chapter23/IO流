@@ -21,3 +21,33 @@ java中所有的流都在java.io.* 下；
         养成一个好习惯，输出流在最终输出之后，一定要记得调用flush()方法刷新一下，
         这个操作叫清空管道。
         注意：如果没有使用该方法，数据可能会丢失！
+6、java.io包下面需要掌握的流有16个：
+    文件专属：
+    java.io.FileInputStream;
+    java.io.FileOutputStream;
+    java.io.FileReader;
+    java.io.FileWriter;
+
+    转换流：
+    java.io.InputStreamReader;
+    java.io.OutputStreamWriter;
+
+    缓冲流专属：
+    java.io.BufferedReader;
+    java.io.BufferedWriter;
+    java.io.BufferedInputStream;
+    java.io.BufferedOutputStream;
+
+    数据流专属：
+    java.io.DataInputStream;
+    java.io.DataOutputStream;
+
+    标准输出流：
+    java.io.PrintWriter;
+    java.io.PrintReader;
+
+    对象专属流：
+    java.io.ObjectInputStream;
+    java.io.ObjectOutputStream;
+
+
