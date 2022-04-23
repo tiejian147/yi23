@@ -7,7 +7,7 @@ import java.util.Date;
  *      三种方式
  *          第一种方式：Class.forName("完整类名带包名")
  *          第二种方式：Class c = 引用.getClass();
- *          第三种方式：
+ *          第三种方式：Class c = 任何类型.class;
  *
  */
 public class ReflectTest01 {
@@ -38,6 +38,13 @@ public class ReflectTest01 {
         Date date = new Date();
         Class y = date.getClass();
         System.out.println(c2 == y); //true 内存地址是一样的
+        //第三种方式，java语言中任何一种类型，包括基本数据类型，它都有.clsss属性
+        Class z = String.class; //z代表String类型
+        Class e = Date.class;//e代表Date类型
+        Class f = int.class;//f代表int类型
+        Class k = Double.class;//k代表Double类型
+
+        System.out.println(y == e);
 
     }
 }
